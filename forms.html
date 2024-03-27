@@ -33,7 +33,16 @@
         <!-- Alternative way to label an input (way less common) -->
         <label
           >Select your age <br />
-          <input type="number" name="age" id="age" placeholder="Age" />
+          <input
+            type="number"
+            name="age"
+            id="age"
+            placeholder="Age"
+            min="1"
+            max="1000"
+            step="2"
+            value="30"
+          />
         </label>
       </p>
       <button type="submit">Submit</button>
@@ -72,6 +81,55 @@
         <label for="m">M</label>
         <input type="radio" name="size" id="m" value="M" />
       </p>
+      <p>
+        <label for="meal">Please select an Entree</label>
+        <select name="meal" id="meal">
+          <option value="">Please select meal</option>
+          <option value="fish">Fish</option>
+          <option value="veg" selected>Vegetarian</option>
+          <option value="steak">Steak</option>
+        </select>
+      </p>
+      <p>
+        <label for="cheese">Ammount of Cheese</label>
+        <input
+          type="range"
+          name="cheese_level"
+          id="cheese"
+          min="1"
+          max="100"
+          step="5"
+          value="75"
+        />
+      </p>
+
+      <p>
+        <label for="requests">Any Special Requests?</label><br />
+        <textarea
+          name="equest"
+          id="requests"
+          cols="30"
+          rows="10"
+          placeholder="Type something here"
+        ></textarea>
+      </p>
+      <button type="submit">Submit</button>
+    </form>
+    <h2>Validations Demo</h2>
+    <form action="">
+      <label for="first">Enter First Name</label>
+      <input type="text" name="name" id="first" required />
+      <label for="username"></label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        minlength="5"
+        maxlength="20"
+        required
+      />
+      <input type="email" name="email" id="email" required />
+      <input type="url" name="page" id="url" />
       <button type="submit">Submit</button>
     </form>
   </body>
