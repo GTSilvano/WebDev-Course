@@ -33,6 +33,8 @@ span {
 
 .post a {
   color: #457b9d;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 footer a {
@@ -51,10 +53,49 @@ input[type="password"] {
   color: greenyellow;
 }
 
-section.post {
+/* section.post {
   background-color: lightpink;
-}
+} */
 
 a[href*="google"] {
   color: magenta;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
+
+.post button:active {
+  background-color: #02c39a;
+}
+
+.post:nth-of-type(2n) {
+  background-color: #dfe8dc;
+}
+
+h2::first-letter {
+  font-size: 40px;
+}
+
+p::first-line {
+  color: purple;
+}
+
+::selection {
+  background-color: #fcbf49;
+}
+
+h1,
+h2 {
+  color: yellow;
+}
+/* THE MORE SPECIFIC SELECTOR "WINS" IN CASE OF CONFLICT */
+button:hover {
+  background-color: olive;
+  font-size: 10px;
+}
+
+.post button:hover {
+  background-color: #e63946;
+  color: #f1faee;
 }
