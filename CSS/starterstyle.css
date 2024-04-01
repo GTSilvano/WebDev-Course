@@ -99,3 +99,7 @@ button:hover {
   background-color: #e63946;
   color: #f1faee;
 }
+/* ID > CLASS > ELEMENT */
+
+/* Inline Styles (not recommended)>>>>ID Selectors 1st Tier | CLass, Attribute & Pseudo-Class Selectors Tier 2 | Element and Pseudo-Element Selectors last */
+
