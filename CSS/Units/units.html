@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Units lesson</title>
+    <link rel="stylesheet" href="unitstyle.css" />
+  </head>
+  <body>
+    <h1>CSS Units <button>Click me</button></h1>
+
+    <p>width: 50% - half the width of the parent</p>
+    <p>line-height: 50% - half the font-size of the element itself</p>
+
+    <section>
+      <div></div>
+    </section>
+
+    <p>
+      Em's and Rem's Em's are relative units. With font-size, 1em equals the
+      fonti-size of the parent. 2ems' is twice the font-size of the parent, etc.
+    </p>
+    <p>
+      With other properties, 1em is equal to the computed font-size of the
+      element itself.
+    </p>
+
+    <article class="jora">
+      <h2>I'm H2</h2>
+      <h3>I'm an H3</h3>
+      <button>Click me</button>
+      <p class="spammer">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+        eveniet cupiditate dolorum quam aliquid reiciendis ipsam error
+        perspiciatis nisi, blanditiis inventore vel asperiores officiis sapiente
+        eum velit iste quaerat. Ut? Nobis adipisci cum in veniam odio, iste
+        nostrum rerum reiciendis eum, alias voluptas. Ea velit optio facere
+        pariatur harum nulla ratione illo sed perspiciatis! Nam accusantium
+        ratione molestias molestiae officia?
+      </p>
+    </article>
+    <button>Click me</button>
+    <!-- Nested UL->LI that causes Em's to have an issue, as it scales. -->
+    <article id="afro">
+      <ul>
+        <li>
+          Pasta
+          <ul>
+            <li>
+              Ravioli
+              <ul>
+                <li>Spinach</li>
+              </ul>
+            </li>
+            <li>Penne</li>
+          </ul>
+        </li>
+        <li>Salad</li>
+        <li>Gelato</li>
+      </ul>
+    </article>
+
+    <!-- REM's or Root EMs are relative to the root html element's fonti-size.  -->
+    <!-- Often easier to work with. If the root font-size is 20p, 1rem is always 20px, 2rem is always 40px, etc. -->
+    <article id="rems">
+      <h2>Using rems instead of ems!</h2>
+      <h3>I'ms a h3</h3>
+      <button>Click me</button>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, eveniet
+        ea maxime ipsam, excepturi aliquid harum deserunt debitis aliquam quidem
+        autem laborum fuga voluptatum, enim doloribus. Inventore molestias magni
+        mollitia. Aliquam maxime, incidunt delectus dolorum autem velit
+        voluptatum? Expedita culpa quaerat numquam? Exercitationem error vel
+        laboriosam est, maiores quisquam aut maxime reprehenderit aperiam, id
+        culpa, commodi tempora dolor blanditiis. Cum? Facilis earum incidunt
+        similique totam sunt laboriosam repudiandae quae magnam tempora sequi
+        expedita nisi quos animi culpa deserunt inventore, blanditiis nostrum
+        iure veniam rem accusantium ipsa a. Quis, iure quae.
+      </p>
+
+      <ul>
+        <li>
+          Gnocchi
+          <ul>
+            <li>
+              Cartoplea
+              <ul>
+                <li>Meat</li>
+              </ul>
+            </li>
+            <li>Pastoplea</li>
+          </ul>
+        </li>
+        <li>Brocchi</li>
+        <li>Frocchi</li>
+      </ul>
+    </article>
+  </body>
+</html>
