@@ -12,19 +12,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "GTSilvano"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GTSilvano&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/GTSilvano/WebDev-Course.git",
-    "accountId": "0b67e8ed-ee1c-4afc-9860-62232d44a1c5"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GTSilvano/WebDev-Course.git&quot;,
+    &quot;accountId&quot;: &quot;0b67e8ed-ee1c-4afc-9860-62232d44a1c5&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -36,14 +37,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.starter.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "Errors",
+    "settings.editor.selected.configurable": "settings.css.dialects",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -65,6 +72,7 @@
       <workItem from="1730073520846" duration="171000" />
       <workItem from="1730073697242" duration="552000" />
       <workItem from="1730074255489" duration="542000" />
+      <workItem from="1730074801761" duration="880000" />
     </task>
     <task id="LOCAL-00001" summary="installed Webstorm on macOS. Suggested to add the IDE project settings to Git.">
       <option name="closed" value="true" />
@@ -74,7 +82,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730074563456</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="installed Webstorm on macOS. Suggested to add the IDE project settings to Git.">
+      <option name="closed" value="true" />
+      <created>1730074818807</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730074818807</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
