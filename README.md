@@ -39,14 +39,17 @@ Welcome to my journey into web development! This repository is a comprehensive r
 ## Example Projects
 
 ### Project 1: My First Webpage
+
 A simple HTML and CSS page to practice structure and styling.
 
 ### Project 2: Todo List (in progress)
+
 A basic JavaScript-powered todo list app to practice DOM manipulation and event handling.
 
 ## Challenges Faced
 
 Throughout this journey, I've encountered challenges such as:
+
 - Debugging code and understanding error messages.
 - Grasping tricky concepts like scope, closures, and asynchronous JavaScript.
 - Designing responsive layouts that work across devices.
@@ -73,9 +76,9 @@ If you're learning web development, feel free to browse the folders and files. E
 
 ## Connect With Me
 
-- **GitHub:** [YourGitHub](#)
-- **LinkedIn:** [YourLinkedIn](#)
-- **Portfolio:** [YourPortfolio](#)
+- **GitHub:** [YourGitHub]
+- **LinkedIn:** [YourLinkedIn]
+- **Portfolio:** [YourPortfolio]
 
 ---
 
